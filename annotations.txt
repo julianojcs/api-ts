@@ -28,10 +28,17 @@ git config: // Configura o git
     -> Only imperative verbs (don't use "added", "adding", etc)
     <type> <description>
     types: 
-      fix: Bug fix
-      feat: New feature
-      chore: New library or configuration file
-      doc: Documentação
-      style: Styling
-      refactor: Refactoring
-      test: Added testing
+      feat     Adição de funcionalidade.
+      fix      Correção de defeito.
+      docs     Mudança em documentação.
+      style    Mudança de formatação ou estilo, que não afeta a execução do código (espaço, tabulação, etc).
+      refactor Mudança na organização do código, que não afeta o comportamento existente.
+      test     Adição ou mudança de um teste.
+      chore    Adição ou mudança em script de build, que não afeta o código de produção.
+      perf     Mudança de código para melhoria de desempenho.
+      ci       Mudança de configuração de integração contínua.
+      build    Mudança em arquivos de build ou em dependências externas.
+      temp     Commit temporário, que não deve ser incluído no CHANGELOG.
+  
+  Install NPM git-commit-msg-linter    // Force conventional commits use
+    > npm install -D git-commit-msg-linter
