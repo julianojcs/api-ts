@@ -42,3 +42,26 @@ git config: // Configura o git
   
   Install NPM git-commit-msg-linter    // Force conventional commits use
     > npm install -D git-commit-msg-linter
+
+  Conventional Commits
+    A specification for adding human and machine readable meaning to commit messages
+    https://www.conventionalcommits.org/en/v1.0.0/
+
+  Typescript "target": "es2019",
+    https://node.green/
+  
+  JavaScript Standard Style:
+    https://standardjs.com/
+
+  eslint-config-standard-with-typescript:
+    An ESLint shareable config for TypeScript that is based on eslint-config-standard and has TypeScript specific rules from @typescript-eslint/eslint-plugin.
+    https://www.npmjs.com/package/eslint-config-standard-with-typescript
+    Instalation:
+    npm install --save-dev \
+      typescript@^4 \
+      eslint@^7.12.1 \
+      eslint-plugin-promise@^5.0.0 \
+      eslint-plugin-import@^2.22.1 \
+      eslint-plugin-node@^11.1.0 \
+      @typescript-eslint/eslint-plugin@^4.0.1 \
+      eslint-config-standard-with-typescript@latest
