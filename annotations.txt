@@ -52,12 +52,13 @@ git config: // Configura o git
   
   JavaScript Standard Style:
     https://standardjs.com/
+    > npm install standard
 
   eslint-config-standard-with-typescript:
     An ESLint shareable config for TypeScript that is based on eslint-config-standard and has TypeScript specific rules from @typescript-eslint/eslint-plugin.
     https://www.npmjs.com/package/eslint-config-standard-with-typescript
     Instalation:
-    npm install --save-dev \
+    > npm install --save-dev \
       typescript@^4 \
       eslint@^7.12.1 \
       eslint-plugin-promise@^5.0.0 \
@@ -65,3 +66,10 @@ git config: // Configura o git
       eslint-plugin-node@^11.1.0 \
       @typescript-eslint/eslint-plugin@^4.0.1 \
       eslint-config-standard-with-typescript@latest
+
+  Husky: 
+    Modern native Git hooks made easy
+    https://www.npmjs.com/package/husky
+    > npm i -D husky
+    Deve-se instalar tb o Lint-staged para que sejan permitido que rode-se scripts apenas nos arquivos que estão na nossa stage ares (arquivos que estarão no próximo commit)
+    > npm i -D lint-staged
