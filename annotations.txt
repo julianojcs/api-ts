@@ -73,3 +73,9 @@ git config: // Configura o git
     > npm i -D husky
     Deve-se instalar tb o Lint-staged para que sejan permitido que rode-se scripts apenas nos arquivos que estão na nossa stage ares (arquivos que estarão no próximo commit)
     > npm i -D lint-staged
+
+  Tests:
+    Vamos usar o JEST
+    > npm i -g jest
+    > npm i -D @types/jest ts-jest ts-node-dev
+
