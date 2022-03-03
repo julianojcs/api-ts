@@ -1,0 +1,8 @@
+git status
+git commit
+git log
+git config: // Configura o git
+  git config --list            // Lista as configurações atuais
+  git config --system --edit   // Altera as configurações para o computador
+  git config --global --edit   // Altera as configurações para o usuário logado no computador (vamos usar esse)
+  git config --local --edit    // Altera as configurações para o projeto atual
