@@ -1,3 +1,5 @@
+COMANDOS GIT:
+
 git status
 git commit
 git log
@@ -6,3 +8,30 @@ git config: // Configura o git
   git config --system --edit   // Altera as configurações para o computador
   git config --global --edit   // Altera as configurações para o usuário logado no computador (vamos usar esse)
   git config --local --edit    // Altera as configurações para o projeto atual
+  Alterando as configurações criando talhos para o git:
+    [alias]
+    s = !git status -s
+    c = !git add --all && git commit -m
+    lo = !git log --oneline
+    l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+      %H=hash do commit, 
+      %h=short hash do commit, 
+      %cn=commiter name
+      %d=branch+tag(a tag apenas se existir)
+      %s=mensagem do commit
+      %cr=data relativa
+      %C=função para colorir
+
+  Conventional Commits:
+    -> Text in Lower Case (except file names)
+    -> No pontuations
+    -> Only imperative verbs (don't use "added", "adding", etc)
+    <type> <description>
+    types: 
+      fix: Bug fix
+      feat: New feature
+      chore: New library or configuration file
+      doc: Documentação
+      style: Styling
+      refactor: Refactoring
+      test: Added testing
