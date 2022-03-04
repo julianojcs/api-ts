@@ -79,4 +79,3 @@ git config: // Configura o git
     > npm i -g jest
     > npm i -D @types/jest ts-jest ts-node-dev
 
-  npm-check: Verifica as bibliotecas que constam no package.json, se elas estão atualizadas e se estão sendo usadas pelo sistema
