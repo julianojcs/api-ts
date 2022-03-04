@@ -4,7 +4,7 @@
   "description": "API developed using NodeJs, Typescript, TDD, Clean Architecture and SOLID.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTests",
+    "test": "jest --passWithNoTests --watch",
     "test:staged": "jest --passWithNoTests"
   },
   "repository": {
